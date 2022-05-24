@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+body {
+    padding-bottom: 0%;
+    color: rgba(225, 235, 208, 255);
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    background-color: rgba(18, 41, 57, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+article {
+    padding-top: 0;
+}
+
+a {
+    color: rgb(255, 158, 145);
+    text-decoration: none;
+    border-bottom: 2px solid currentColor;
+    word-break: keep-all;
+}
+
+a:hover,
+a:active {
+    color: rgba(225, 235, 208, 255);
+    text-decoration: none;
+}
+
+span.city-country {
+    float: right;
+    font-style: italic;
+}
+
+hr {
+    color: rgba(225, 235, 208, 255);
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.center {
+    margin: auto;
+}
+
+header {
+    margin: 2em auto 2em;
+}
+
+.my-photo {
+    margin: 0 20px 5px 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: left;
+}
+
+.text-container {
+    margin: 50px 50px 50px 50px;
+    ;
+
+}
+
+#general-info {
+    text-align: left;
+}
+
+img {
+    object-fit: cover;
+    width: 40%;
+    max-width: 225px;
+    height: auto;
+}
+
+a.svg-link,
+a.svgi {
+    border-bottom: none;
+    font-size: 5vw;
+}
+
+.svg-link svg {
+    fill: rgb(255, 158, 145);
+    width: 7vw;
+    height: auto;
+    margin: 0 5vw 0 5vw;
+    transition: all .25s linear;
+}
+
+.svg-link svg:hover {
+    fill: rgba(225, 235, 208, 255);
+}
+
+.svgi span {
+    margin: 0 5vw 0 5vw;
+}
+
+.text_center {
+    text-align: center;
+}
+
+#main-container {
+    max-width: 700px;
+}
+
+ul#horizontal-list li {
+    float: left;
+    width: 100px;
+}
+
+#validation {
+    display: inline;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    text-align: left;
+
+}
